@@ -42,14 +42,14 @@ export default function ProductItem(props) {
       <div className={styles.btns}>
         <button className={styles.editProduct}>
           <Link to={`/update-product/${item.id}`}>
-            // <i className="fa fa-pencil" aria-hidden="true"></i>
+            <i className="fa fa-pencil" aria-hidden="true"></i>
           </Link>
         </button>
         <button
           className={styles.deleteProduct}
           onClick={() => handleProductDelete(item.id)}
         >
-          // <i className="fa fa-trash" aria-hidden="true"></i>
+          <i className="fa fa-trash" aria-hidden="true"></i>
         </button>
         <button
           className={styles.addToCart}
