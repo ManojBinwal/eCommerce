@@ -47,6 +47,7 @@ export default function ProductItem(props) {
         >
           <i className="fa fa-cart-plus" aria-hidden="true"></i>
         </button>
+           - Add to Cart
       </div>
     </div>
   );
